@@ -1,0 +1,29 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "https://16-170-139-212.sslip.io/api/:path*" }
+  ],
+  "headers": [
+    {
+      "source": "/downloads/FartOnline.apk",
+      "headers": [
+        { "key": "Content-Type", "value": "application/vnd.android.package-archive" },
+        { "key": "Content-Disposition", "value": "attachment; filename=\"FartOnline.apk\"" }
+      ]
+    },
+    {
+      "source": "/downloads/FartOnline-Windows.zip",
+      "headers": [
+        { "key": "Content-Disposition", "value": "attachment; filename=\"FartOnline-Windows.zip\"" }
+      ]
+    },
+    {
+      "source": "/downloads/info.json",
+      "headers": [ { "key": "Cache-Control", "value": "no-store" } ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [ { "key": "Cache-Control", "value": "public, max-age=604800" } ]
+    }
+  ]
+}

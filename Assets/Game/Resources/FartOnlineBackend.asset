@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e3f42f7f42574da520125684c8555, type: 3}
   m_Name: FartOnlineBackend
   m_EditorClassIdentifier: Assembly-CSharp::FartOnline.Game.Online.BackendConfig
-  supabaseUrl: 
-  supabaseAnonKey: 
-  roomServiceUrl: http://127.0.0.1:8080
+  supabaseUrl: https://qsvyhyxlnxizsxbifvrq.supabase.co
+  supabaseAnonKey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFzdnloeXhsbnhpenN4YmlmdnJxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ0MDM1MTMsImV4cCI6MjEwOTk3OTUxM30.DvTOhK7hYFPaEyZzlK-Um3WrP1cc-ZrdfDBIqtK86Ik
+  roomServiceUrl: https://16-170-139-212.sslip.io/api

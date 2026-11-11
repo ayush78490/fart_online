@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fart Online</title>
+  <meta name="description" content="One round raft, an endless river and a crew of pigs who steer by farting. Play free in your browser, or download for Android and Windows. Solo, local co-op or 4-player online.">
+  <meta name="theme-color" content="#4A2C17">
+  <link rel="icon" type="image/png" href="assets/icons/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fart Online">
+  <meta property="og:description" content="Fart to steer, dodge to survive. Free in your browser, on Android and on Windows.">
+  <meta property="og:image" content="https://16-170-139-212.sslip.io/assets/img/og.jpg">
+  <meta property="og:url" content="https://16-170-139-212.sslip.io/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" href="assets/fonts/LilitaOne.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <div class="wrap nav__in">
+      <a class="nav__logo" href="#top" aria-label="Fart Online, back to top"><span class="logo-fart">FART</span> <span class="logo-online">ONLINE</span></a>
+      <nav aria-label="Sections">
+        <ul class="nav__links">
+          <li><a href="#download">Download</a></li>
+          <li><a href="#how">How to play</a></li>
+          <li><a href="#river">The river</a></li>
+          <li><a href="#together">Play together</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--green btn--sm" href="play/">Play now</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="assets/img/hero.jpg" aria-hidden="true">
+        <source src="assets/video/loop.mp4" type="video/mp4">
+      </video>
+      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="wrap hero__in">
+        <p class="pill">Free · Browser · Android · Windows</p>
+        <h1 id="hero-title" class="logo"><span class="logo-fart">FART</span><span class="logo-online">ONLINE</span></h1>
+        <p class="hero__tag">One round raft. An endless river. Everybody farts.</p>
+        <p class="hero__sub">There are no paddles and no engine. You steer by farting: sit at the back to shoot forward, sit on the right to swing left. Touch anything and the run is over.</p>
+        <div class="hero__cta">
+          <a class="btn btn--green btn--lg" href="play/"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg>Play in your browser</a>
+          <a class="btn btn--wood btn--lg" href="#download"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M11 3h2v10.2l3.6-3.6 1.4 1.4-6 6-6-6 1.4-1.4 3.6 3.6zM4 19h16v2H4z"/></svg>Download</a>
+        </div>
+        <div class="hero__meta">
+          <button class="link-btn" type="button" data-trailer><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M10 8v8l6-4z" fill="#4A2C17"/></svg>Watch the trailer</button>
+          <span class="status" data-status hidden><span class="status__dot"></span><span data-status-text></span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOWNLOAD -->
+    <section class="section section--cream" id="download" aria-labelledby="dl-title">
+      <div class="wrap">
+        <h2 id="dl-title" class="h2">Pick your raft</h2>
+        <p class="lead">Same river, same crew on every platform. Online rooms mix browser, Android and Windows players.</p>
+        <div class="cards">
+          <article class="card" data-platform="web">
+            <span class="card__badge" hidden>Best for you</span>
+            <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.8 3.9 9s-1.3 6.2-3.9 9c-2.6-2.8-3.9-5.8-3.9-9S9.4 5.8 12 3z" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+            <h3 class="card__title">Browser</h3>
+            <p class="card__note">Nothing to install. Chrome, Edge or Firefox on a computer; phones get on-screen controls.</p>
+            <a class="btn btn--green" href="play/">Play now</a>
+            <ul class="card__facts">
+              <li>Loads about 35 MB the first time, then it's cached</li>
+              <li>No voice chat in the browser yet</li>
+            </ul>
+          </article>
+
+          <article class="card" data-platform="android">
+            <span class="card__badge" hidden>Best for you</span>
+            <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 9h12v8a2 2 0 0 1-2 2h-1v3h-2v-3h-2v3H9v-3H8a2 2 0 0 1-2-2zM3.5 9.5h1.8v6H3.5zm15.2 0h1.8v6h-1.8zM6.2 8a5.8 5.8 0 0 1 11.6 0zM9.5 5.5a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6zm5 0a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6z" fill="currentColor"/></svg></div>
+            <h3 class="card__title">Android</h3>
+            <p class="card__note">Phones and tablets with Android 8.0 or newer. Plays in landscape, with a thumbstick and a big fart button.</p>
+            <a class="btn btn--green" href="downloads/FartOnline.apk" download data-file="apk">Download APK<span class="btn__size" data-size="apk"></span></a>
+            <details class="card__help">
+              <summary>How to install</summary>
+              <ol>
+                <li>Open the downloaded <b>FartOnline.apk</b>.</li>
+                <li>If Android asks, allow your browser to <b>install unknown apps</b>.</li>
+                <li>Tap <b>Install</b>. Allow the microphone if you want voice chat.</li>
+              </ol>
+            </details>
+          </article>
+
+          <article class="card" data-platform="windows">
+            <span class="card__badge" hidden>Best for you</span>
+            <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 5.5 10.5 4.4v7.1H3zm8.5-1.3L21 3v8.5h-9.5zM3 12.5h7.5v7.1L3 18.5zm8.5 0H21V21l-9.5-1.3z" fill="currentColor"/></svg></div>
+            <h3 class="card__title">Windows</h3>
+            <p class="card__note">Windows 10 or 11, 64-bit. The sharpest version, with keyboard, gamepad and voice chat.</p>
+            <a class="btn btn--green" href="downloads/FartOnline-Windows.zip" download data-file="windows">Download for Windows<span class="btn__size" data-size="windows"></span></a>
+            <details class="card__help">
+              <summary>How to install</summary>
+              <ol>
+                <li>Unzip <b>FartOnline-Windows.zip</b> anywhere.</li>
+                <li>Open the <b>FartOnline</b> folder and run <b>FartOnline.exe</b>.</li>
+                <li>If Windows SmartScreen appears, click <b>More info</b>, then <b>Run anyway</b>. The game isn't code-signed yet.</li>
+              </ol>
+            </details>
+          </article>
+        </div>
+        <p class="fineprint" data-version hidden></p>
+      </div>
+    </section>
+
+    <!-- HOW TO PLAY -->
+    <section class="section section--water" id="how" aria-labelledby="how-title">
+      <div class="wrap">
+        <h2 id="how-title" class="h2 h2--light">How to fart a raft</h2>
+        <ol class="steps">
+          <li class="step">
+            <svg class="step__art" viewBox="0 0 200 200" role="img" aria-label="A round raft seen from above with a pig sitting on its rim">
+              <use href="#raft-base"/>
+              <circle cx="100" cy="168" r="15" fill="#F6A6B8" stroke="#4A2C17" stroke-width="4"/>
+              <path d="M74 180a30 30 0 0 1 0-24M126 180a30 30 0 0 0 0-24" fill="none" stroke="#FFF4DC" stroke-width="5" stroke-linecap="round"/>
+            </svg>
+            <h3 class="step__title"><span class="step__n">1</span>Sit on the rim</h3>
+            <p>Everyone shares one round raft. Walk around its edge with <kbd>A</kbd> and <kbd>D</kbd>.</p>
+          </li>
+          <li class="step">
+            <svg class="step__art" viewBox="0 0 200 200" role="img" aria-label="The pig at the back farts and the raft moves forward">
+              <use href="#raft-base"/>
+              <circle cx="100" cy="168" r="15" fill="#F6A6B8" stroke="#4A2C17" stroke-width="4"/>
+              <g fill="#A8D13F" stroke="#6E9A1E" stroke-width="3"><circle cx="100" cy="196" r="10"/><circle cx="84" cy="194" r="7"/><circle cx="116" cy="194" r="7"/></g>
+              <path d="M100 128V46" stroke="#4A2C17" stroke-width="9" stroke-linecap="round"/>
+              <path d="M78 66 100 38l22 28" fill="none" stroke="#4A2C17" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3 class="step__title"><span class="step__n">2</span>Fart to push</h3>
+            <p>Hold <kbd>F</kbd>. Your fart pushes the raft <b>away</b> from you: sit at the back to go forward, on the right to go left.</p>
+          </li>
+          <li class="step">
+            <svg class="step__art" viewBox="0 0 200 200" role="img" aria-label="A spiked log blocks part of the river and the raft slips through the gap">
+              <rect x="8" y="24" width="120" height="26" rx="13" fill="#D9535F" stroke="#4A2C17" stroke-width="4"/>
+              <g fill="#FFF4DC" stroke="#4A2C17" stroke-width="3" stroke-linejoin="round"><path d="M24 24l6-14 6 14z"/><path d="M52 24l6-14 6 14z"/><path d="M80 24l6-14 6 14z"/><path d="M108 24l6-14 6 14z"/><path d="M24 50l6 14 6-14z"/><path d="M52 50l6 14 6-14z"/><path d="M80 50l6 14 6-14z"/><path d="M108 50l6 14 6-14z"/></g>
+              <path d="M164 196v-40" fill="none" stroke="#FFF4DC" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 12"/>
+              <g transform="translate(120 70) scale(.44)"><use href="#raft-base"/></g>
+              <path d="M164 64V22M150 36l14-16 14 16" fill="none" stroke="#4A2C17" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3 class="step__title"><span class="step__n">3</span>Dodge everything</h3>
+            <p>Spiked banks, swinging logs, mines and gates. One bump ends the run, and the river keeps getting meaner.</p>
+          </li>
+        </ol>
+
+        <div class="controls">
+          <h3 class="controls__title">Controls</h3>
+          <div class="table-scroll">
+            <table>
+              <caption class="sr-only">Keyboard and gamepad controls</caption>
+              <thead><tr><th scope="col">Action</th><th scope="col">Player 1</th><th scope="col">Player 2</th><th scope="col">Gamepad</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Walk around the rim</th><td><kbd>A</kbd> <kbd>D</kbd></td><td><kbd>Left</kbd> <kbd>Right</kbd></td><td>Stick / D-pad</td></tr>
+                <tr><th scope="row">Fart (hold for a stream)</th><td><kbd>F</kbd></td><td><kbd>Enter</kbd></td><td><kbd>A</kbd></td></tr>
+                <tr><th scope="row">Charged fart (hold, release)</th><td><kbd>L-Shift</kbd></td><td><kbd>R-Shift</kbd></td><td><kbd>RT</kbd></td></tr>
+                <tr><th scope="row">Brake burst</th><td><kbd>S</kbd></td><td><kbd>Down</kbd></td><td><kbd>B</kbd> / <kbd>LT</kbd></td></tr>
+                <tr><th scope="row">Restart after a crash</th><td><kbd>R</kbd></td><td><kbd>Backspace</kbd></td><td><kbd>Y</kbd></td></tr>
+                <tr><th scope="row">Pause</th><td><kbd>Esc</kbd></td><td><kbd>P</kbd></td><td><kbd>Start</kbd></td></tr>
+                <tr><th scope="row">Talk (online)</th><td><kbd>V</kbd></td><td>–</td><td>–</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="controls__touch"><b>On a phone:</b> the thumbstick walks you around the rim and the big button farts. Hold <b>TALK</b> to speak online.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE RIVER -->
+    <section class="section section--cream" id="river" aria-labelledby="river-title">
+      <div class="wrap">
+        <h2 id="river-title" class="h2">A river that never ends</h2>
+        <p class="lead">Every run builds a fresh river as you go. It twists harder, moves faster and gets crueller the further you get, with a new danger level every 500 metres.</p>
+        <ul class="features">
+          <li><b>Deadly from the first metre.</b> Spiked rollers line both banks, so there's no hugging the shore.</li>
+          <li><b>Traps that move.</b> Swinging spike logs, rolling logs, buzzsaws, fire jets, cannons and gates that only open now and then.</li>
+          <li><b>Always a way through.</b> Every stretch is checked to leave a gap the raft can fit, if your crew can aim.</li>
+          <li><b>Beat your best.</b> Your longest run is saved, and the bar shows how close you are.</li>
+        </ul>
+        <div class="gallery">
+          <figure><img src="assets/img/shot-1.jpg" alt="The raft heading for a red and white gate with a spiked log across it" loading="lazy" width="1280" height="720"><figcaption>Spike gates</figcaption></figure>
+          <figure><img src="assets/img/shot-2.jpg" alt="Close-up of a pink pig sitting on the raft, looking worried" loading="lazy" width="1280" height="720"><figcaption>Meet the crew</figcaption></figure>
+          <figure><img src="assets/img/shot-3.jpg" alt="Top-down view of the round raft in a narrow river lined with spikes" loading="lazy" width="1280" height="720"><figcaption>No room for error</figcaption></figure>
+          <figure><img src="assets/img/shot-4.jpg" alt="Four pigs sitting around the rim of the inflatable raft" loading="lazy" width="1280" height="720"><figcaption>One raft, four pigs</figcaption></figure>
+          <figure><img src="assets/img/shot-5.jpg" alt="The pigs farting green gas clouds to push the raft" loading="lazy" width="1280" height="720"><figcaption>Fart together</figcaption></figure>
+          <figure><img src="assets/img/shot-6.jpg" alt="Spiked logs stretching across the river ahead" loading="lazy" width="1280" height="720"><figcaption>Spiked logs</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOGETHER -->
+    <section class="section section--wood" id="together" aria-labelledby="together-title">
+      <div class="wrap">
+        <h2 id="together-title" class="h2 h2--light">Better with friends (and worse for the raft)</h2>
+        <div class="modes">
+          <article class="mode">
+            <h3>Online co-op</h3>
+            <p class="mode__who">2 to 4 players</p>
+            <ul>
+              <li>Make a free account: email, password and a username.</li>
+              <li>Add friends by username and invite them, or share your room code.</li>
+              <li>Talk while you play: hold <kbd>V</kbd> or <b>TALK</b> (Android and Windows).</li>
+            </ul>
+          </article>
+          <article class="mode">
+            <h3>Local co-op</h3>
+            <p class="mode__who">2 to 4 players, one screen</p>
+            <ul>
+              <li>Two players share a keyboard; more join with gamepads.</li>
+              <li>No account and no internet needed.</li>
+            </ul>
+          </article>
+          <article class="mode">
+            <h3>Solo</h3>
+            <p class="mode__who">Just you</p>
+            <ul>
+              <li>Run the whole raft yourself.</li>
+              <li>Solo Assist steadies the raft while you learn the river.</li>
+            </ul>
+          </article>
+        </div>
+        <div class="center"><a class="btn btn--green btn--lg" href="play/"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg>Start rafting</a></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--cream" id="faq" aria-labelledby="faq-title">
+      <div class="wrap wrap--narrow">
+        <h2 id="faq-title" class="h2">Questions</h2>
+        <details class="faq"><summary>Is it free?</summary><p>Yes. Every version is free to play, solo or online.</p></details>
+        <details class="faq"><summary>Do I need an account?</summary><p>Only for online co-op, so friends can find and invite you. Solo and local co-op work without one.</p></details>
+        <details class="faq"><summary>Can browser, Android and Windows players play together?</summary><p>Yes. Online rooms don't care what you're playing on. Voice chat works on Android and Windows; browser players can still play and hear the game.</p></details>
+        <details class="faq"><summary>I'm on an iPhone or iPad.</summary><p>There's no iOS app yet. Try the browser version in Safari.</p></details>
+        <details class="faq"><summary>The browser version is slow.</summary><p>Close other tabs, and use Chrome or Edge with hardware acceleration turned on. On older phones the Android app runs more smoothly.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <a class="nav__logo" href="#top"><span class="logo-fart">FART</span> <span class="logo-online">ONLINE</span></a>
+      <p>Fonts: Lilita One and Fredoka (SIL Open Font License). Sound effects: CC0, from OpenGameArt.</p>
+      <p>© 2026 Fart Online</p>
+    </div>
+  </footer>
+
+  <dialog class="notice" aria-labelledby="notice-title">
+    <div class="notice__icon" aria-hidden="true" data-notice-icon></div>
+    <h2 class="notice__title" id="notice-title" data-notice-title></h2>
+    <p class="notice__text" data-notice-text></p>
+    <form class="notice__resend" data-resend hidden>
+      <label for="resend-email">Your email</label>
+      <input id="resend-email" type="email" name="email" autocomplete="email" required placeholder="you@example.com">
+      <button class="btn btn--wood" type="submit">Send me a new link</button>
+      <p class="notice__msg" data-resend-msg role="status"></p>
+    </form>
+    <form method="dialog"><button class="btn btn--green">Got it</button></form>
+  </dialog>
+
+  <dialog class="trailer" aria-label="Fart Online trailer">
+    <form method="dialog"><button class="trailer__close" aria-label="Close trailer">×</button></form>
+    <video controls playsinline preload="none" poster="assets/img/trailer-poster.jpg"></video>
+  </dialog>
+
+  <!-- shared raft drawing (top view) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <g id="raft-base">
+        <circle cx="100" cy="100" r="78" fill="#FFF4DC" stroke="#4A2C17" stroke-width="5"/>
+        <circle cx="100" cy="100" r="60" fill="#CDE7C4" stroke="#E8C69F" stroke-width="5"/>
+        <path d="M44 86h112M41 100h118M44 114h112" stroke="#A9D2A0" stroke-width="4"/>
+        <circle cx="100" cy="100" r="70" fill="none" stroke="#FFC94A" stroke-width="3"/>
+      </g>
+    </defs>
+  </svg>
+
+  <script src="js/site.js" defer></script>
+</body>
+</html>

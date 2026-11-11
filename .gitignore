@@ -95,3 +95,7 @@ node_modules/
 # ---------- Python tooling ----------
 __pycache__/
 *.py[cod]
+
+# ---------- Website (deployed by Vercel from Website/) ----------
+# the public downloads are committed on purpose
+!/Website/downloads/*.apk

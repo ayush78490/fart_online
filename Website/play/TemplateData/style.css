@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Lilita One";
+  src: url("LilitaOne.ttf") format("truetype");
+  font-display: swap;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #4a2c17;
+  overscroll-behavior: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* the game fills the whole window (or screen when installed) in any orientation */
+#unity-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  display: block;
+  background: #4a2c17;
+  outline: none;
+  touch-action: none;
+}
+
+#loading {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.2vmin;
+  background: radial-gradient(circle at 50% 40%, #e8c69f 0%, #b47b4f 55%, #4a2c17 100%);
+  font-family: "Lilita One", "Arial Rounded MT Bold", sans-serif;
+  color: #fff4dc;
+  text-align: center;
+  padding: 4vmin;
+  box-sizing: border-box;
+}
+
+#loading-logo {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.95;
+  font-size: clamp(56px, 16vmin, 180px);
+  text-shadow: 0.05em 0.05em 0 #4a2c17, -0.035em -0.035em 0 #4a2c17, 0.05em -0.035em 0 #4a2c17, -0.035em 0.05em 0 #4a2c17, 0 0.09em 0 rgba(74, 44, 23, 0.6);
+  animation: bob 2.2s ease-in-out infinite;
+}
+#loading-logo .fart { color: #ffc94a; transform: translateX(-0.12em); }
+#loading-logo .online { transform: rotate(3deg) translateX(0.1em); }
+
+#loading-tag {
+  background: #dc9a76;
+  border: 0.35vmin solid #8f5a3a;
+  border-radius: 1vmin;
+  padding: 1vmin 2.4vmin;
+  font-size: clamp(13px, 2.6vmin, 26px);
+  text-shadow: 0.06em 0.06em 0 #4a2c17;
+}
+
+#loading-bar {
+  width: min(78vw, 640px);
+  height: clamp(18px, 3.6vmin, 30px);
+  border: 0.5vmin solid #8f5a3a;
+  border-radius: 999px;
+  background: #4a2c17;
+  overflow: hidden;
+  box-shadow: 0 0.6vmin 0 rgba(74, 44, 23, 0.5);
+}
+#loading-fill {
+  width: 0%;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(#c6e86a, #a8d13f);
+  transition: width 0.2s ease-out;
+}
+#loading-text {
+  font-size: clamp(14px, 2.8vmin, 26px);
+  text-shadow: 0.06em 0.06em 0 #4a2c17;
+}
+
+#rotate-hint {
+  display: none;
+  position: fixed;
+  left: 50%;
+  bottom: 5vh;
+  transform: translateX(-50%);
+  font-family: "Lilita One", sans-serif;
+  font-size: 16px;
+  color: #4a2c17;
+  background: #fff4dc;
+  border-radius: 12px;
+  padding: 8px 14px;
+  box-shadow: 0 3px 0 rgba(74, 44, 23, 0.4);
+  white-space: nowrap;
+}
+
+#unity-warning {
+  position: fixed;
+  left: 50%;
+  top: 2vh;
+  transform: translateX(-50%);
+  z-index: 10;
+  font-family: sans-serif;
+}
+#unity-warning .banner { background: #ffc94a; color: #4a2c17; padding: 10px 14px; border-radius: 8px; margin-bottom: 6px; }
+#unity-warning .banner.error { background: #d9535f; color: #fff; }
+
+#diagnostics-icon { position: fixed; bottom: 10px; right: 0; }
+
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-1.2vmin); }
+}
