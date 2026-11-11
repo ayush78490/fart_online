@@ -1,0 +1,138 @@
+unity ready
+15:12:06 log: [NetAutoTest] 2.4s start role=join pattern=right delay=0ms drop=0
+
+15:12:24 log: [Net] joining 127.0.0.1:7777 (WebSockets)
+
+15:12:24 log: [Net] connected as client 1
+
+15:12:24 log: [NetAutoTest] 20.4s connected
+
+15:12:24 log: [NetAutoTest] 20.4s pos=(-0.35,0.00,86.74) v=0.00 kinematic=True rtt=89ms state=Lobby seed=0 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=1 burstsReceived=0 posesReceived=1 connected=True [1:HostBot (host) a=150 - gas=1.00] [2:WebBot a=210 - gas=1.00]
+
+15:12:30 log: [NetAutoTest] 26.6s pos=(0.00,0.60,45.00) v=0.00 kinematic=True rtt=89ms state=Countdown seed=1076720738 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=4 burstsReceived=0 posesReceived=2 connected=True [1:HostBot (host) a=150 - gas=1.00] [2:WebBot a=210 - gas=1.00]
+
+15:12:30 log: [NetAutoTest] 26.6s river seed=1076720738 chunks=11 rows=6
+
+15:12:31 log: [NetAutoTest] 27.0s pos=(0.00,-0.21,45.19) v=0.00 kinematic=True rtt=89ms state=Countdown seed=1076720738 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=8 burstsReceived=0 posesReceived=21 connected=True [1:HostBot (host) a=150 - gas=1.00] [2:WebBot a=210 - gas=1.00]
+
+15:12:31 log: [NetAutoTest] 27.1s pos=(0.00,-0.24,45.26) v=0.00 kinematic=True rtt=89ms state=Countdown seed=1076720738 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=8 burstsReceived=0 posesReceived=31 connected=True [1:HostBot (host) a=150 - gas=1.00] [2:WebBot a=210 - gas=1.00]
+
+15:12:31 log: [NetAutoTest] 27.1s pos=(0.00,-0.05,45.76) v=0.00 kinematic=True rtt=89ms state=Countdown seed=1076720738 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=9 burstsReceived=0 posesReceived=38 connected=True [1:HostBot (host) a=150 - gas=1.00] [2:WebBot a=210 - gas=1.00]
+
+15:12:32 log: [NetAutoTest] 27.2s pos=(0.00,-0.01,45.84) v=0.00 kinematic=True rtt=89ms state=Countdown seed=1076720738 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=9 burstsReceived=0 posesReceived=44 connected=True [1:HostBot (host) a=150 - gas=1.00] [2:WebBot a=210 - gas=1.00]
+
+15:12:32 log: [NetAutoTest] 27.2s pos=(0.00,0.02,45.91) v=0.00 kinematic=True rtt=89ms state=Countdown seed=1076720738 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=9 burstsReceived=0 posesReceived=49 connected=True [1:HostBot (host) a=150 - gas=1.00] [2:WebBot a=210 - gas=1.00]
+
+15:12:32 log: [NetAutoTest] 27.4s pos=(0.00,-0.03,47.94) v=0.00 kinematic=True rtt=89ms state=Countdown seed=1076720738 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=11 burstsReceived=0 posesReceived=64 connected=True [1:HostBot (host) a=150 - gas=1.00] [2:WebBot a=210 - gas=1.00]
+
+15:12:32 log: [NetAutoTest] 28.4s pos=(-2.32,-0.01,75.59) v=0.00 kinematic=True rtt=89ms state=Playing seed=1076720738 score=30 clock=5.06 gameOvers=0 elapsed=5.1 cp=-1 wipeouts=0 farts=7 players=2 inputsSent=21 burstsReceived=7 posesReceived=244 connected=True [1:HostBot (host) a=168 - gas=0.08] [2:WebBot a=210 - gas=1.00]
+
+15:12:33 log: [NetAutoTest] 29.4s pos=(-2.61,0.00,79.30) v=0.00 kinematic=True rtt=89ms state=Playing seed=1076720738 score=34 clock=6.13 gameOvers=0 elapsed=6.1 cp=-1 wipeouts=0 farts=9 players=2 inputsSent=31 burstsReceived=9 posesReceived=274 connected=True [1:HostBot (host) a=168 FART gas=0.09] [2:WebBot a=210 - gas=1.00]
+
+15:12:34 log: [NetAutoTest] 30.4s pos=(-2.86,0.00,83.86) v=0.00 kinematic=True rtt=89ms state=Playing seed=1076720738 score=39 clock=7.09 gameOvers=0 elapsed=7.1 cp=-1 wipeouts=0 farts=9 players=2 inputsSent=40 burstsReceived=11 posesReceived=304 connected=True [1:HostBot (host) a=168 - gas=0.07] [2:WebBot a=210 - gas=1.00]
+
+15:12:35 log: [NetAutoTest] 31.4s pos=(-3.09,0.00,87.84) v=0.00 kinematic=True rtt=89ms state=Playing seed=1076720738 score=43 clock=8.10 gameOvers=0 elapsed=8.1 cp=-1 wipeouts=0 farts=10 players=2 inputsSent=49 burstsReceived=12 posesReceived=333 connected=True [1:HostBot (host) a=168 - gas=0.30] [2:WebBot a=210 - gas=1.00]
+
+15:12:36 log: [NetAutoTest] 32.4s pos=(-3.52,-0.01,92.66) v=0.00 kinematic=True rtt=89ms state=Playing seed=1076720738 score=48 clock=9.13 gameOvers=0 elapsed=9.2 cp=-1 wipeouts=0 farts=11 players=2 inputsSent=58 burstsReceived=13 posesReceived=364 connected=True [1:HostBot (host) a=168 FART gas=0.02] [2:WebBot a=210 - gas=1.00]
+
+15:12:37 log: [NetAutoTest] 33.4s pos=(-4.14,0.01,97.83) v=0.00 kinematic=True rtt=89ms state=Playing seed=1076720738 score=53 clock=10.13 gameOvers=0 elapsed=10.1 cp=-1 wipeouts=0 farts=11 players=2 inputsSent=67 burstsReceived=14 posesReceived=393 connected=True [1:HostBot (host) a=168 - gas=0.14] [2:WebBot a=210 - gas=1.00]
+
+15:12:38 log: [NetAutoTest] 34.4s pos=(-4.86,0.00,102.04) v=0.00 kinematic=True rtt=89ms state=Playing seed=1076720738 score=58 clock=11.13 gameOvers=0 elapsed=11.2 cp=-1 wipeouts=0 farts=12 players=2 inputsSent=76 burstsReceived=16 posesReceived=424 connected=True [1:HostBot (host) a=168 FART gas=0.07] [2:WebBot a=210 - gas=1.00]
+
+15:12:39 log: [NetAutoTest] 35.4s pos=(-5.75,0.00,106.83) v=0.00 kinematic=True rtt=89ms state=Playing seed=1076720738 score=63 clock=12.13 gameOvers=0 elapsed=12.1 cp=-1 wipeouts=0 farts=12 players=2 inputsSent=85 burstsReceived=17 posesReceived=453 connected=True [1:HostBot (host) a=168 - gas=0.08] [2:WebBot a=210 - gas=1.00]
+
+15:12:40 log: [NetAutoTest] 36.4s pos=(-6.73,0.00,110.77) v=0.00 kinematic=True rtt=89ms state=Playing seed=1076720738 score=67 clock=13.11 gameOvers=0 elapsed=13.2 cp=-1 wipeouts=0 farts=13 players=2 inputsSent=93 burstsReceived=19 posesReceived=484 connected=True [1:HostBot (host) a=168 FART gas=0.13] [2:WebBot a=210 - gas=1.00]
+
+15:12:41 log: [NetAutoTest] 37.4s pos=(-7.95,0.00,115.59) v=0.00 kinematic=True rtt=89ms state=Playing seed=1076720738 score=72 clock=14.14 gameOvers=0 elapsed=14.2 cp=-1 wipeouts=0 farts=13 players=2 inputsSent=102 burstsReceived=20 posesReceived=514 connected=True [1:HostBot (host) a=168 - gas=0.04] [2:WebBot a=210 - gas=1.00]
+
+15:12:42 log: [NetAutoTest] 38.4s pos=(-9.24,0.00,119.61) v=0.00 kinematic=True rtt=89ms state=Playing seed=1076720738 score=76 clock=15.14 gameOvers=0 elapsed=15.2 cp=-1 wipeouts=0 farts=14 players=2 inputsSent=111 burstsReceived=22 posesReceived=544 connected=True [1:HostBot (host) a=168 FART gas=0.18] [2:WebBot a=210 - gas=1.00]
+
+15:12:43 log: [NetAutoTest] 39.4s pos=(-10.63,-0.01,123.91) v=0.00 kinematic=True rtt=89ms state=Playing seed=1076720738 score=80 clock=16.12 gameOvers=0 elapsed=16.2 cp=-1 wipeouts=0 farts=14 players=2 inputsSent=120 burstsReceived=23 posesReceived=574 connected=True [1:HostBot (host) a=168 - gas=0.00] [2:WebBot a=210 - gas=1.00]
+
+15:12:44 log: [NetAutoTest] 40.4s pos=(-12.18,0.01,128.00) v=0.00 kinematic=True rtt=89ms state=Playing seed=1076720738 score=84 clock=17.13 gameOvers=0 elapsed=17.1 cp=-1 wipeouts=0 farts=15 players=2 inputsSent=129 burstsReceived=25 posesReceived=603 connected=True [1:HostBot (host) a=168 FART gas=0.25] [2:WebBot a=210 - gas=1.00]
+
+15:12:45 log: [NetAutoTest] 41.4s pos=(-13.16,-0.04,132.81) v=0.00 kinematic=True rtt=89ms state=Playing seed=1076720738 score=89 clock=18.10 gameOvers=0 elapsed=18.2 cp=-1 wipeouts=0 farts=17 players=2 inputsSent=138 burstsReceived=28 posesReceived=634 connected=True [1:HostBot (host) a=168 - gas=0.00] [2:WebBot a=210 FART gas=0.71]
+
+15:12:46 log: [NetAutoTest] 42.4s pos=(-14.25,0.17,138.17) v=0.00 kinematic=True rtt=89ms state=Playing seed=1076720738 score=93 clock=19.13 gameOvers=0 elapsed=19.1 cp=-1 wipeouts=0 farts=17 players=2 inputsSent=147 burstsReceived=29 posesReceived=663 connected=True [1:HostBot (host) a=168 - gas=0.22] [2:WebBot a=210 - gas=0.71]
+
+15:12:47 log: [NetAutoTest] 43.0s GAME OVER #1 score=95 crash='windmill blades' seed=1076720738
+
+15:12:47 log: [NetAutoTest] 43.4s pos=(-15.74,0.12,139.93) v=0.00 kinematic=True rtt=89ms state=GameOver seed=1076720738 score=95 clock=19.72 gameOvers=1 elapsed=19.7 cp=-1 wipeouts=1 farts=20 players=2 inputsSent=156 burstsReceived=32 posesReceived=693 connected=True [1:HostBot (host) a=168 - gas=0.13] [2:WebBot a=210 - gas=0.58]
+
+15:12:48 log: [NetAutoTest] 44.4s pos=(-16.35,0.03,139.69) v=0.00 kinematic=True rtt=89ms state=GameOver seed=1076720738 score=95 clock=19.70 gameOvers=1 elapsed=19.7 cp=-1 wipeouts=1 farts=20 players=2 inputsSent=166 burstsReceived=32 posesReceived=724 connected=True [1:HostBot (host) a=168 - gas=0.44] [2:WebBot a=210 - gas=0.89]
+
+15:12:49 log: [NetAutoTest] 45.4s pos=(-17.32,0.01,139.68) v=0.00 kinematic=True rtt=89ms state=GameOver seed=1076720738 score=95 clock=19.70 gameOvers=1 elapsed=19.7 cp=-1 wipeouts=1 farts=20 players=2 inputsSent=174 burstsReceived=32 posesReceived=753 connected=True [1:HostBot (host) a=168 - gas=0.74] [2:WebBot a=210 - gas=1.00]
+
+15:12:50 log: [NetAutoTest] 46.2s river seed=1376136081 chunks=11 rows=5
+
+15:12:50 log: [NetAutoTest] 46.4s pos=(0.00,0.23,45.02) v=0.00 kinematic=True rtt=89ms state=Countdown seed=1376136081 score=0 clock=0.00 gameOvers=1 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=184 burstsReceived=32 posesReceived=782 connected=True [1:HostBot (host) a=168 - gas=1.00] [2:WebBot a=210 - gas=1.00]
+
+15:12:51 log: [NetAutoTest] 47.4s pos=(0.00,0.09,46.18) v=0.00 kinematic=True rtt=89ms state=Countdown seed=1376136081 score=0 clock=0.00 gameOvers=1 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=194 burstsReceived=32 posesReceived=812 connected=True [1:HostBot (host) a=168 - gas=1.00] [2:WebBot a=210 - gas=1.00]
+
+15:12:52 log: [NetAutoTest] 48.4s pos=(0.00,-0.02,48.46) v=0.00 kinematic=True rtt=89ms state=Countdown seed=1376136081 score=0 clock=0.00 gameOvers=1 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=203 burstsReceived=32 posesReceived=842 connected=True [1:HostBot (host) a=168 - gas=1.00] [2:WebBot a=210 - gas=1.00]
+
+15:12:53 log: [NetAutoTest] 49.4s pos=(0.10,0.00,51.40) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=6 clock=0.41 gameOvers=1 elapsed=0.4 cp=-1 wipeouts=0 farts=3 players=2 inputsSent=212 burstsReceived=35 posesReceived=871 connected=True [1:HostBot (host) a=168 FART gas=0.89] [2:WebBot a=210 FART gas=0.89]
+
+15:12:54 log: [NetAutoTest] 50.4s pos=(0.73,-0.04,57.29) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=13 clock=1.40 gameOvers=1 elapsed=1.4 cp=-1 wipeouts=0 farts=3 players=2 inputsSent=221 burstsReceived=35 posesReceived=902 connected=True [1:HostBot (host) a=168 - gas=0.60] [2:WebBot a=210 FART gas=0.58]
+
+15:12:55 log: [NetAutoTest] 51.4s pos=(1.45,0.01,64.26) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=19 clock=2.38 gameOvers=1 elapsed=2.4 cp=-1 wipeouts=0 farts=6 players=2 inputsSent=230 burstsReceived=38 posesReceived=931 connected=True [1:HostBot (host) a=168 FART gas=0.62] [2:WebBot a=210 - gas=0.61]
+
+15:12:56 log: [NetAutoTest] 52.4s pos=(2.24,-0.04,72.16) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=28 clock=3.39 gameOvers=1 elapsed=3.4 cp=-1 wipeouts=0 farts=7 players=2 inputsSent=239 burstsReceived=39 posesReceived=962 connected=True [1:HostBot (host) a=168 FART gas=0.31] [2:WebBot a=210 FART gas=0.32]
+
+15:12:57 log: [NetAutoTest] 53.4s pos=(3.18,0.00,80.04) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=35 clock=4.38 gameOvers=1 elapsed=4.4 cp=-1 wipeouts=0 farts=8 players=2 inputsSent=248 burstsReceived=40 posesReceived=991 connected=True [1:HostBot (host) a=168 - gas=0.32] [2:WebBot a=210 - gas=0.32]
+
+15:12:58 log: [NetAutoTest] 54.4s pos=(3.90,-0.04,87.77) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=43 clock=5.38 gameOvers=1 elapsed=5.4 cp=-1 wipeouts=0 farts=11 players=2 inputsSent=257 burstsReceived=43 posesReceived=1021 connected=True [1:HostBot (host) a=168 FART gas=0.05] [2:WebBot a=210 FART gas=0.09]
+
+15:12:59 log: [NetAutoTest] 55.4s pos=(4.53,0.01,95.94) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=50 clock=6.38 gameOvers=1 elapsed=6.4 cp=-1 wipeouts=0 farts=11 players=2 inputsSent=267 burstsReceived=46 posesReceived=1051 connected=True [1:HostBot (host) a=168 - gas=0.12] [2:WebBot a=210 - gas=0.08]
+
+15:13:00 log: [NetAutoTest] 56.4s pos=(3.84,0.07,101.27) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=54 clock=7.38 gameOvers=1 elapsed=7.4 cp=-1 wipeouts=0 farts=13 players=2 inputsSent=276 burstsReceived=49 posesReceived=1081 connected=True [1:HostBot (host) a=168 FART gas=0.11] [2:WebBot a=210 FART gas=0.14]
+
+15:13:01 log: [NetAutoTest] 57.4s pos=(2.24,0.12,106.25) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=59 clock=8.36 gameOvers=1 elapsed=8.4 cp=-1 wipeouts=0 farts=13 players=2 inputsSent=286 burstsReceived=51 posesReceived=1111 connected=True [1:HostBot (host) a=168 - gas=0.07] [2:WebBot a=210 - gas=0.03]
+
+15:13:02 log: [NetAutoTest] 58.4s pos=(0.46,0.08,109.89) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=63 clock=9.38 gameOvers=1 elapsed=9.4 cp=-1 wipeouts=0 farts=15 players=2 inputsSent=295 burstsReceived=55 posesReceived=1141 connected=True [1:HostBot (host) a=168 FART gas=0.15] [2:WebBot a=210 FART gas=0.19]
+
+15:13:03 log: [NetAutoTest] 59.4s pos=(-0.35,0.21,112.62) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=65 clock=10.37 gameOvers=1 elapsed=10.4 cp=-1 wipeouts=0 farts=15 players=2 inputsSent=304 burstsReceived=57 posesReceived=1171 connected=True [1:HostBot (host) a=168 - gas=0.01] [2:WebBot a=210 - gas=0.00]
+
+15:13:04 log: [NetAutoTest] 60.4s pos=(-1.50,0.09,114.34) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=67 clock=11.36 gameOvers=1 elapsed=11.4 cp=-1 wipeouts=0 farts=17 players=2 inputsSent=313 burstsReceived=61 posesReceived=1200 connected=True [1:HostBot (host) a=168 FART gas=0.22] [2:WebBot a=210 FART gas=0.25]
+
+15:13:05 log: [NetAutoTest] 61.4s pos=(-1.80,0.15,114.97) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=68 clock=12.37 gameOvers=1 elapsed=12.4 cp=-1 wipeouts=0 farts=17 players=2 inputsSent=322 burstsReceived=63 posesReceived=1231 connected=True [1:HostBot (host) a=168 - gas=0.00] [2:WebBot a=210 - gas=0.00]
+
+15:13:06 log: [NetAutoTest] 62.4s pos=(-2.08,0.08,115.23) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=68 clock=13.40 gameOvers=1 elapsed=13.4 cp=-1 wipeouts=0 farts=18 players=2 inputsSent=332 burstsReceived=66 posesReceived=1261 connected=True [1:HostBot (host) a=168 FART gas=0.26] [2:WebBot a=210 - gas=0.23]
+
+15:13:07 log: [NetAutoTest] 63.4s pos=(-2.32,0.12,115.60) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=68 clock=14.37 gameOvers=1 elapsed=14.4 cp=-1 wipeouts=0 farts=19 players=2 inputsSent=341 burstsReceived=68 posesReceived=1290 connected=True [1:HostBot (host) a=168 - gas=0.00] [2:WebBot a=210 FART gas=0.01]
+
+15:13:08 log: [NetAutoTest] 64.4s pos=(-2.33,0.05,115.37) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=68 clock=15.39 gameOvers=1 elapsed=15.4 cp=-1 wipeouts=0 farts=19 players=2 inputsSent=350 burstsReceived=70 posesReceived=1321 connected=True [1:HostBot (host) a=168 - gas=0.21] [2:WebBot a=210 - gas=0.18]
+
+15:13:09 log: [NetAutoTest] 65.4s pos=(-2.70,0.09,115.93) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=69 clock=16.39 gameOvers=1 elapsed=16.4 cp=-1 wipeouts=0 farts=21 players=2 inputsSent=359 burstsReceived=73 posesReceived=1351 connected=True [1:HostBot (host) a=168 FART gas=0.02] [2:WebBot a=210 FART gas=0.05]
+
+15:13:10 log: [NetAutoTest] 66.4s pos=(-2.52,0.05,115.65) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=69 clock=17.39 gameOvers=1 elapsed=17.4 cp=-1 wipeouts=0 farts=21 players=2 inputsSent=368 burstsReceived=75 posesReceived=1380 connected=True [1:HostBot (host) a=168 - gas=0.15] [2:WebBot a=210 - gas=0.11]
+
+15:13:11 log: [NetAutoTest] 67.4s pos=(-2.94,0.08,116.31) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=69 clock=18.35 gameOvers=1 elapsed=18.4 cp=-1 wipeouts=0 farts=23 players=2 inputsSent=376 burstsReceived=79 posesReceived=1410 connected=True [1:HostBot (host) a=168 FART gas=0.08] [2:WebBot a=210 FART gas=0.12]
+
+15:13:12 log: [NetAutoTest] 68.4s pos=(-2.69,0.05,115.99) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=69 clock=19.38 gameOvers=1 elapsed=19.4 cp=-1 wipeouts=0 farts=23 players=2 inputsSent=385 burstsReceived=81 posesReceived=1441 connected=True [1:HostBot (host) a=168 - gas=0.10] [2:WebBot a=210 - gas=0.06]
+
+15:13:13 log: [NetAutoTest] 69.4s pos=(-3.17,0.06,116.62) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=69 clock=20.38 gameOvers=1 elapsed=20.4 cp=-1 wipeouts=0 farts=25 players=2 inputsSent=394 burstsReceived=85 posesReceived=1471 connected=True [1:HostBot (host) a=168 FART gas=0.13] [2:WebBot a=210 FART gas=0.17]
+
+15:13:14 log: [NetAutoTest] 70.4s pos=(-2.89,0.07,116.40) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=69 clock=21.37 gameOvers=1 elapsed=21.4 cp=-1 wipeouts=0 farts=25 players=2 inputsSent=403 burstsReceived=87 posesReceived=1501 connected=True [1:HostBot (host) a=168 - gas=0.04] [2:WebBot a=210 - gas=0.00]
+
+15:13:15 log: [NetAutoTest] 71.4s pos=(-3.26,0.04,116.78) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=70 clock=22.35 gameOvers=1 elapsed=22.4 cp=-1 wipeouts=0 farts=27 players=2 inputsSent=413 burstsReceived=91 posesReceived=1530 connected=True [1:HostBot (host) a=168 FART gas=0.19] [2:WebBot a=210 FART gas=0.25]
+
+15:13:17 log: [NetAutoTest] 72.4s pos=(-3.17,0.08,116.84) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=70 clock=23.36 gameOvers=1 elapsed=23.4 cp=-1 wipeouts=0 farts=27 players=2 inputsSent=421 burstsReceived=93 posesReceived=1561 connected=True [1:HostBot (host) a=168 - gas=0.00] [2:WebBot a=210 - gas=0.00]
+
+15:13:17 log: [NetAutoTest] 73.4s pos=(-3.39,0.04,117.01) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=70 clock=24.38 gameOvers=1 elapsed=24.4 cp=-1 wipeouts=0 farts=29 players=2 inputsSent=430 burstsReceived=97 posesReceived=1591 connected=True [1:HostBot (host) a=168 FART gas=0.13] [2:WebBot a=210 - gas=0.24]
+
+15:13:19 log: [NetAutoTest] 75.0s pos=(-3.50,0.05,117.20) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=70 clock=24.51 gameOvers=1 elapsed=24.5 cp=-1 wipeouts=0 farts=29 players=2 inputsSent=433 burstsReceived=97 posesReceived=1592 connected=True [1:HostBot (host) a=168 FART gas=0.11] [2:WebBot a=210 - gas=0.25]
+
+15:13:21 log: [NetAutoTest] 77.0s pos=(-3.30,0.06,116.82) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=70 clock=24.61 gameOvers=1 elapsed=25.2 cp=-1 wipeouts=0 farts=30 players=2 inputsSent=436 burstsReceived=99 posesReceived=1614 connected=True [1:HostBot (host) a=168 - gas=0.00] [2:WebBot a=210 FART gas=0.06]
+
+15:13:22 log: [NetAutoTest] 78.4s pos=(-3.24,0.03,116.71) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=70 clock=25.12 gameOvers=1 elapsed=25.5 cp=-1 wipeouts=0 farts=30 players=2 inputsSent=439 burstsReceived=101 posesReceived=1624 connected=True [1:HostBot (host) a=168 - gas=0.07] [2:WebBot a=210 - gas=0.00]
+
+15:13:23 log: [NetAutoTest] 79.3s pos=(-3.27,0.03,116.74) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=70 clock=25.48 gameOvers=1 elapsed=25.8 cp=-1 wipeouts=0 farts=30 players=2 inputsSent=442 burstsReceived=101 posesReceived=1632 connected=True [1:HostBot (host) a=168 - gas=0.16] [2:WebBot a=210 - gas=0.00]
+
+15:13:24 log: [NetAutoTest] 80.4s pos=(-3.38,0.03,116.88) v=0.00 kinematic=True rtt=89ms state=Playing seed=1376136081 score=70 clock=25.81 gameOvers=1 elapsed=26.0 cp=-1 wipeouts=0 farts=30 players=2 inputsSent=445 burstsReceived=101 posesReceived=1639 connected=True [1:HostBot (host) a=168 - gas=0.23] [2:WebBot a=210 - gas=0.05]
+
+15:13:25 log: [NetAutoTest] 81.3s END state=Playing seed=1376136081 score=70 clock=26.05 gameOvers=1 elapsed=26.3 cp=-1 wipeouts=0 farts=30 players=2 inputsSent=448 burstsReceived=102 posesReceived=1646 connected=True
+
+15:13:25 log: [Net] left the session
+
+15:13:25 log: [Net] disconnected: [Disconnect Event][Client-1][TransportClientId-4294967296][TransportShutdown] NetworkConnectionManager was shutdown. The transport was shutdown.

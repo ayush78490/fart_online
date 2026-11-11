@@ -1,0 +1,1206 @@
+Mono path[0] = 'D:/FOBuild/FartOnline_Data/Managed'
+Mono config path = 'D:/FOBuild/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Found 2 interfaces on host : 0) 172.31.160.1 1) 192.168.1.7
+Player connection [36176]  Target information:
+
+Player connection [36176]  * "[IP] 172.31.160.1 [Port] 55000 [Flags] 2 [Guid] 308395428 [EditorId] 112993709 [Version] 1048832 [Id] WindowsPlayer(2,LAPTOP-7E3TSAJU) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] Fart Online" 
+
+Player connection [36176]  * "[IP] 192.168.1.7 [Port] 55000 [Flags] 2 [Guid] 308395428 [EditorId] 112993709 [Version] 1048832 [Id] WindowsPlayer(2,LAPTOP-7E3TSAJU) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] Fart Online" 
+
+Player connection [36176] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.5.6f1 (0e0577a1a2ac)
+[Subsystems] Discovering subsystems at path D:/FOBuild/FartOnline_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Finished resetting the current domain, in  0.748 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 5.030900 ms
+[NetAutoTest] 0.9s start role=room pattern=back delay=0ms drop=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Start () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:90)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 8.9s ROOM CODE=LY67BE host=127.0.0.1:7800 tls=False
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:123)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[Net] joining room LY67BE at ws://127.0.0.1:7800
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetworkSessionManager:JoinRoom (FartOnline.Game.Online.RoomTicket) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetworkSessionManager.cs:187)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:124)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[Net] connected as client 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetworkSessionManager:OnClientConnected (ulong) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetworkSessionManager.cs:326)
+Unity.Netcode.NetworkConnectionManager:InvokeOnClientConnectedCallback (ulong) (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Connection/NetworkConnectionManager.cs:158)
+Unity.Netcode.ConnectionApprovedMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Messaging/Messages/ConnectionApprovedMessage.cs:360)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ConnectionApprovedMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Messaging/NetworkMessageManager.cs:566)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Messaging/NetworkMessageManager.cs:420)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Core/NetworkManager.cs:364)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Core/NetworkUpdateLoop.cs:214)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 9.3s connected
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:127)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 13.4s players=2 leader=True state=Lobby
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 13.4s leader starts the run
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 13.4s pos=(-0.61,0.00,57.01) v=0.00 kinematic=True rtt=45ms state=Lobby seed=0 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=36 burstsReceived=0 posesReceived=123 connected=True [1:alice a=150 - gas=1.00] [2:bobby a=210 - gas=1.00] voiceSent=0 voiceRecv=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 13.6s river seed=2030300155 chunks=11 rows=10
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:WatchEndless () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:189)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 14.4s pos=(0.00,-0.19,45.65) v=0.00 kinematic=True rtt=40ms state=Countdown seed=2030300155 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=45 burstsReceived=0 posesReceived=153 connected=True [1:alice a=150 - gas=1.00] [2:bobby a=210 - gas=1.00] voiceSent=51 voiceRecv=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 15.4s pos=(0.00,-0.01,48.14) v=0.00 kinematic=True rtt=40ms state=Countdown seed=2030300155 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=54 burstsReceived=0 posesReceived=183 connected=True [1:alice a=150 - gas=1.00] [2:bobby a=210 - gas=1.00] voiceSent=51 voiceRecv=48
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 16.4s pos=(0.01,0.02,51.45) v=0.00 kinematic=True rtt=40ms state=Countdown seed=2030300155 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=63 burstsReceived=0 posesReceived=213 connected=True [1:alice a=150 - gas=1.00] [2:bobby a=210 - gas=1.00] voiceSent=51 voiceRecv=99
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 17.4s pos=(0.02,0.00,54.95) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=10 clock=0.94 gameOvers=0 elapsed=1.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=72 burstsReceived=0 posesReceived=242 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=101 voiceRecv=100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 18.4s pos=(0.02,0.00,58.61) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=13 clock=1.96 gameOvers=0 elapsed=2.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=81 burstsReceived=0 posesReceived=272 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=151 voiceRecv=100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 19.4s pos=(0.03,0.00,62.29) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=17 clock=2.94 gameOvers=0 elapsed=3.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=91 burstsReceived=0 posesReceived=302 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=151 voiceRecv=147
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 20.4s pos=(0.02,0.00,66.03) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=21 clock=3.93 gameOvers=0 elapsed=3.9 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=100 burstsReceived=0 posesReceived=331 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=151 voiceRecv=198
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 21.4s pos=(0.00,0.00,69.78) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=25 clock=4.93 gameOvers=0 elapsed=4.9 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=110 burstsReceived=0 posesReceived=361 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=201 voiceRecv=200
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 22.4s pos=(0.00,-0.04,68.94) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=25 clock=5.93 gameOvers=0 elapsed=5.9 cp=-1 wipeouts=0 farts=2 players=2 inputsSent=120 burstsReceived=2 posesReceived=391 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=251 voiceRecv=200
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 23.4s pos=(-0.01,0.01,69.55) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=25 clock=6.95 gameOvers=0 elapsed=7.0 cp=-1 wipeouts=0 farts=2 players=2 inputsSent=129 burstsReceived=2 posesReceived=421 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=251 voiceRecv=249
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 24.4s pos=(-0.05,0.01,72.09) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=27 clock=7.96 gameOvers=0 elapsed=8.0 cp=-1 wipeouts=0 farts=2 players=2 inputsSent=139 burstsReceived=2 posesReceived=451 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=251 voiceRecv=299
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 25.4s pos=(-0.09,0.00,75.36) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=30 clock=8.96 gameOvers=0 elapsed=9.0 cp=-1 wipeouts=0 farts=2 players=2 inputsSent=148 burstsReceived=2 posesReceived=481 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=301 voiceRecv=300
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 26.4s pos=(-0.15,0.00,78.92) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=34 clock=9.96 gameOvers=0 elapsed=10.0 cp=-1 wipeouts=0 farts=2 players=2 inputsSent=158 burstsReceived=2 posesReceived=511 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=351 voiceRecv=300
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 27.4s pos=(-0.22,0.00,82.60) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=38 clock=10.96 gameOvers=0 elapsed=11.0 cp=-1 wipeouts=0 farts=2 players=2 inputsSent=167 burstsReceived=2 posesReceived=541 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=351 voiceRecv=349
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 28.4s pos=(-0.28,0.00,86.36) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=41 clock=11.94 gameOvers=0 elapsed=12.0 cp=-1 wipeouts=0 farts=2 players=2 inputsSent=176 burstsReceived=2 posesReceived=572 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=351 voiceRecv=398
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 29.4s pos=(-0.35,0.00,90.10) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=45 clock=12.93 gameOvers=0 elapsed=12.9 cp=-1 wipeouts=0 farts=2 players=2 inputsSent=186 burstsReceived=2 posesReceived=601 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=401 voiceRecv=400
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 30.4s pos=(-0.41,0.00,93.89) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=49 clock=13.93 gameOvers=0 elapsed=14.0 cp=-1 wipeouts=0 farts=2 players=2 inputsSent=195 burstsReceived=2 posesReceived=631 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=451 voiceRecv=400
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 31.4s pos=(-0.39,-0.04,92.92) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=49 clock=14.95 gameOvers=0 elapsed=15.0 cp=-1 wipeouts=0 farts=4 players=2 inputsSent=205 burstsReceived=4 posesReceived=661 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=451 voiceRecv=448
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 32.4s pos=(-0.40,0.00,93.59) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=49 clock=15.96 gameOvers=0 elapsed=16.0 cp=-1 wipeouts=0 farts=4 players=2 inputsSent=214 burstsReceived=4 posesReceived=691 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=451 voiceRecv=499
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 33.4s pos=(-0.44,0.01,96.15) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=51 clock=16.96 gameOvers=0 elapsed=17.0 cp=-1 wipeouts=0 farts=4 players=2 inputsSent=223 burstsReceived=4 posesReceived=721 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=501 voiceRecv=500
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 34.4s pos=(0.30,-0.03,101.03) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=56 clock=17.95 gameOvers=0 elapsed=18.0 cp=-1 wipeouts=0 farts=6 players=2 inputsSent=232 burstsReceived=6 posesReceived=752 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 FART gas=0.69] voiceSent=551 voiceRecv=500
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 35.4s pos=(1.90,0.00,107.93) v=0.00 kinematic=True rtt=40ms state=Playing seed=2030300155 score=63 clock=18.94 gameOvers=0 elapsed=19.0 cp=-1 wipeouts=0 farts=6 players=2 inputsSent=240 burstsReceived=6 posesReceived=782 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=0.72] voiceSent=551 voiceRecv=548
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 35.9s GAME OVER #1 score=66 crash='a gate post' seed=2030300155
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:WatchEndless () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:196)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 36.4s pos=(2.76,-0.13,111.87) v=0.00 kinematic=True rtt=40ms state=GameOver seed=2030300155 score=66 clock=19.40 gameOvers=1 elapsed=19.4 cp=-1 wipeouts=1 farts=8 players=2 inputsSent=249 burstsReceived=8 posesReceived=812 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=0.64] voiceSent=551 voiceRecv=598
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 37.4s pos=(2.43,-0.04,111.96) v=0.00 kinematic=True rtt=40ms state=GameOver seed=2030300155 score=66 clock=19.40 gameOvers=1 elapsed=19.4 cp=-1 wipeouts=1 farts=8 players=2 inputsSent=258 burstsReceived=8 posesReceived=842 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=0.95] voiceSent=601 voiceRecv=600
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 38.4s pos=(1.82,-0.03,112.26) v=0.00 kinematic=True rtt=40ms state=GameOver seed=2030300155 score=66 clock=19.40 gameOvers=1 elapsed=19.4 cp=-1 wipeouts=1 farts=8 players=2 inputsSent=267 burstsReceived=8 posesReceived=871 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=651 voiceRecv=600
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 38.9s leader restarts the run (#1)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:WatchEndless () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:201)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 39.0s river seed=1620530001 chunks=11 rows=11
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:WatchEndless () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:189)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 39.4s pos=(0.01,0.05,45.07) v=0.00 kinematic=True rtt=83ms state=Countdown seed=1620530001 score=0 clock=0.00 gameOvers=1 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=276 burstsReceived=8 posesReceived=900 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=651 voiceRecv=648
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 40.4s pos=(0.05,0.10,46.82) v=0.00 kinematic=True rtt=83ms state=Countdown seed=1620530001 score=0 clock=0.00 gameOvers=1 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=286 burstsReceived=8 posesReceived=930 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=651 voiceRecv=698
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 41.4s pos=(0.17,-0.01,49.79) v=0.00 kinematic=True rtt=83ms state=Countdown seed=1620530001 score=0 clock=0.00 gameOvers=1 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=295 burstsReceived=8 posesReceived=960 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=701 voiceRecv=700
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 42.4s pos=(0.44,0.00,53.42) v=0.00 kinematic=True rtt=83ms state=Playing seed=1620530001 score=8 clock=0.48 gameOvers=1 elapsed=0.5 cp=-1 wipeouts=0 farts=2 players=2 inputsSent=304 burstsReceived=10 posesReceived=990 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 FART gas=0.88] voiceSent=751 voiceRecv=700
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 43.4s pos=(1.75,-0.03,59.73) v=0.00 kinematic=True rtt=83ms state=Playing seed=1620530001 score=15 clock=1.49 gameOvers=1 elapsed=1.5 cp=-1 wipeouts=0 farts=2 players=2 inputsSent=312 burstsReceived=10 posesReceived=1020 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 FART gas=0.58] voiceSent=751 voiceRecv=749
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 44.4s pos=(3.16,0.01,66.87) v=0.00 kinematic=True rtt=83ms state=Playing seed=1620530001 score=21 clock=2.48 gameOvers=1 elapsed=2.5 cp=-1 wipeouts=0 farts=3 players=2 inputsSent=321 burstsReceived=11 posesReceived=1050 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=0.62] voiceSent=751 voiceRecv=798
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 44.5s GAME OVER #2 score=22 crash='a spiked bank roller' seed=1620530001
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:WatchEndless () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:196)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 45.4s pos=(2.05,0.00,72.48) v=0.00 kinematic=True rtt=83ms state=GameOver seed=1620530001 score=22 clock=2.51 gameOvers=2 elapsed=2.5 cp=-1 wipeouts=1 farts=3 players=2 inputsSent=330 burstsReceived=11 posesReceived=1081 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=0.83] voiceSent=801 voiceRecv=800
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 46.4s pos=(-0.04,0.00,74.13) v=0.00 kinematic=True rtt=83ms state=GameOver seed=1620530001 score=22 clock=2.50 gameOvers=2 elapsed=2.5 cp=-1 wipeouts=1 farts=3 players=2 inputsSent=339 burstsReceived=11 posesReceived=1111 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=851 voiceRecv=800
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 47.4s pos=(-1.83,0.00,76.11) v=0.00 kinematic=True rtt=83ms state=GameOver seed=1620530001 score=22 clock=2.50 gameOvers=2 elapsed=2.5 cp=-1 wipeouts=1 farts=3 players=2 inputsSent=348 burstsReceived=11 posesReceived=1141 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=851 voiceRecv=849
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 47.5s leader restarts the run (#2)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:WatchEndless () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:201)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 47.7s river seed=1515257263 chunks=11 rows=10
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:WatchEndless () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:189)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 48.4s pos=(-0.02,-0.23,45.51) v=0.00 kinematic=True rtt=41ms state=Countdown seed=1515257263 score=0 clock=0.00 gameOvers=2 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=356 burstsReceived=11 posesReceived=1169 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=851 voiceRecv=899
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 49.4s pos=(-0.10,0.01,47.83) v=0.00 kinematic=True rtt=41ms state=Countdown seed=1515257263 score=0 clock=0.00 gameOvers=2 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=365 burstsReceived=11 posesReceived=1200 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=901 voiceRecv=900
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 50.4s pos=(-0.26,0.02,51.07) v=0.00 kinematic=True rtt=41ms state=Countdown seed=1515257263 score=0 clock=0.00 gameOvers=2 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=374 burstsReceived=11 posesReceived=1230 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=951 voiceRecv=900
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 51.4s pos=(-0.24,0.00,55.21) v=0.00 kinematic=True rtt=41ms state=Playing seed=1515257263 score=10 clock=0.83 gameOvers=2 elapsed=0.9 cp=-1 wipeouts=0 farts=2 players=2 inputsSent=383 burstsReceived=13 posesReceived=1259 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 FART gas=0.82] voiceSent=951 voiceRecv=948
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 52.4s pos=(0.78,-0.02,62.07) v=0.00 kinematic=True rtt=41ms state=Playing seed=1515257263 score=17 clock=1.85 gameOvers=2 elapsed=1.9 cp=-1 wipeouts=0 farts=2 players=2 inputsSent=392 burstsReceived=13 posesReceived=1289 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=0.57] voiceSent=951 voiceRecv=998
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 53.4s pos=(2.27,0.00,69.16) v=0.00 kinematic=True rtt=41ms state=Playing seed=1515257263 score=25 clock=2.86 gameOvers=2 elapsed=2.9 cp=-1 wipeouts=0 farts=4 players=2 inputsSent=400 burstsReceived=15 posesReceived=1319 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 FART gas=0.56] voiceSent=1001 voiceRecv=1000
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 54.4s pos=(4.69,-0.03,76.92) v=0.00 kinematic=True rtt=41ms state=Playing seed=1515257263 score=33 clock=3.86 gameOvers=2 elapsed=3.9 cp=-1 wipeouts=0 farts=4 players=2 inputsSent=409 burstsReceived=15 posesReceived=1349 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 FART gas=0.26] voiceSent=1051 voiceRecv=1000
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 55.4s pos=(7.65,0.01,84.29) v=0.00 kinematic=True rtt=41ms state=Playing seed=1515257263 score=41 clock=4.86 gameOvers=2 elapsed=4.9 cp=-1 wipeouts=0 farts=5 players=2 inputsSent=418 burstsReceived=16 posesReceived=1379 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=0.31] voiceSent=1051 voiceRecv=1049
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 56.2s GAME OVER #3 score=47 crash='a spiked bank roller' seed=1515257263
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:WatchEndless () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:196)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 56.4s pos=(11.28,-0.05,91.34) v=0.00 kinematic=True rtt=41ms state=GameOver seed=1515257263 score=47 clock=5.69 gameOvers=3 elapsed=5.7 cp=-1 wipeouts=1 farts=6 players=2 inputsSent=427 burstsReceived=17 posesReceived=1409 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=0.06] voiceSent=1051 voiceRecv=1098
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 57.4s pos=(15.86,0.05,92.78) v=0.00 kinematic=True rtt=41ms state=GameOver seed=1515257263 score=47 clock=5.70 gameOvers=3 elapsed=5.7 cp=-1 wipeouts=1 farts=6 players=2 inputsSent=435 burstsReceived=17 posesReceived=1439 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=0.28] voiceSent=1101 voiceRecv=1100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 58.4s pos=(19.65,0.00,94.26) v=0.00 kinematic=True rtt=41ms state=GameOver seed=1515257263 score=47 clock=5.70 gameOvers=3 elapsed=5.7 cp=-1 wipeouts=1 farts=6 players=2 inputsSent=444 burstsReceived=17 posesReceived=1469 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=0.59] voiceSent=1151 voiceRecv=1100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 59.2s leader restarts the run (#3)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:WatchEndless () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:201)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 59.4s pos=(22.91,0.00,95.85) v=0.00 kinematic=True rtt=99ms state=Countdown seed=2120736543 score=0 clock=5.70 gameOvers=3 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=452 burstsReceived=17 posesReceived=1497 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=1151 voiceRecv=1146
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 59.4s river seed=2120736543 chunks=11 rows=10
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:WatchEndless () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:189)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 60.4s pos=(-0.03,-0.06,45.97) v=0.00 kinematic=True rtt=99ms state=Countdown seed=2120736543 score=0 clock=0.00 gameOvers=3 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=462 burstsReceived=17 posesReceived=1528 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=1151 voiceRecv=1199
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 61.4s pos=(-0.11,-0.03,48.60) v=0.00 kinematic=True rtt=99ms state=Countdown seed=2120736543 score=0 clock=0.00 gameOvers=3 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=2 inputsSent=471 burstsReceived=17 posesReceived=1558 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=1.00] voiceSent=1201 voiceRecv=1200
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 62.4s pos=(-0.27,0.01,51.86) v=0.00 kinematic=True rtt=99ms state=Playing seed=2120736543 score=7 clock=0.12 gameOvers=3 elapsed=0.1 cp=-1 wipeouts=0 farts=1 players=2 inputsSent=479 burstsReceived=18 posesReceived=1588 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 FART gas=0.96] voiceSent=1251 voiceRecv=1200
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 63.4s pos=(0.07,-0.02,56.85) v=0.00 kinematic=True rtt=99ms state=Playing seed=2120736543 score=12 clock=1.12 gameOvers=3 elapsed=1.1 cp=-1 wipeouts=0 farts=1 players=2 inputsSent=488 burstsReceived=18 posesReceived=1619 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 - gas=0.70] voiceSent=1251 voiceRecv=1248
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 64.4s pos=(1.01,0.01,63.32) v=0.00 kinematic=True rtt=99ms state=Playing seed=2120736543 score=19 clock=2.11 gameOvers=3 elapsed=2.1 cp=-1 wipeouts=0 farts=3 players=2 inputsSent=497 burstsReceived=20 posesReceived=1649 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 FART gas=0.70] voiceSent=1251 voiceRecv=1298
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 65.4s pos=(2.79,-0.03,70.98) v=0.00 kinematic=True rtt=99ms state=Playing seed=2120736543 score=27 clock=3.11 gameOvers=3 elapsed=3.1 cp=-1 wipeouts=0 farts=3 players=2 inputsSent=505 burstsReceived=20 posesReceived=1679 connected=True [1:alice a=160 - gas=1.00] [2:bobby a=202 FART gas=0.40] voiceSent=1301 voiceRecv=1300
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 66.4s pos=(5.12,0.01,78.52) v=0.00 kinematic=True rtt=99ms state=Playing seed=2120736543 score=35 clock=4.11 gameOvers=3 elapsed=4.1 cp=-1 wipeouts=0 farts=4 players=1 inputsSent=515 burstsReceived=21 posesReceived=1709 connected=True [1:alice a=184 - gas=0.93] voiceSent=1351 voiceRecv=1300
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 67.4s pos=(7.35,-0.03,86.24) v=0.00 kinematic=True rtt=99ms state=Playing seed=2120736543 score=43 clock=5.11 gameOvers=3 elapsed=5.1 cp=-1 wipeouts=0 farts=5 players=1 inputsSent=524 burstsReceived=22 posesReceived=1739 connected=True [1:alice a=184 FART gas=0.64] voiceSent=1351 voiceRecv=1300
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 68.0s GAME OVER #4 score=47 crash='a gate post' seed=2120736543
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:WatchEndless () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:196)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 68.4s pos=(9.16,0.02,92.01) v=0.00 kinematic=True rtt=99ms state=GameOver seed=2120736543 score=47 clock=5.77 gameOvers=4 elapsed=5.8 cp=-1 wipeouts=1 farts=5 players=1 inputsSent=534 burstsReceived=22 posesReceived=1767 connected=True [1:alice a=184 - gas=0.66] voiceSent=1351 voiceRecv=1300
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 69.4s pos=(10.05,0.00,92.00) v=0.00 kinematic=True rtt=99ms state=GameOver seed=2120736543 score=47 clock=5.80 gameOvers=4 elapsed=5.8 cp=-1 wipeouts=1 farts=5 players=1 inputsSent=543 burstsReceived=22 posesReceived=1797 connected=True [1:alice a=184 - gas=0.97] voiceSent=1401 voiceRecv=1300
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 70.4s pos=(11.71,0.00,92.66) v=0.00 kinematic=True rtt=99ms state=GameOver seed=2120736543 score=47 clock=5.80 gameOvers=4 elapsed=5.8 cp=-1 wipeouts=1 farts=5 players=1 inputsSent=553 burstsReceived=22 posesReceived=1827 connected=True [1:alice a=184 - gas=1.00] voiceSent=1451 voiceRecv=1300
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 71.1s leader restarts the run (#4)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:WatchEndless () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:201)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 71.3s river seed=1953113053 chunks=11 rows=10
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:WatchEndless () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:189)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 71.4s pos=(0.00,0.49,45.00) v=0.00 kinematic=True rtt=51ms state=Countdown seed=1953113053 score=0 clock=0.00 gameOvers=4 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=1 inputsSent=561 burstsReceived=22 posesReceived=1856 connected=True [1:alice a=184 - gas=1.00] voiceSent=1451 voiceRecv=1300
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 72.4s pos=(-0.01,0.04,46.29) v=0.00 kinematic=True rtt=51ms state=Countdown seed=1953113053 score=0 clock=0.00 gameOvers=4 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=1 inputsSent=570 burstsReceived=22 posesReceived=1886 connected=True [1:alice a=184 - gas=1.00] voiceSent=1451 voiceRecv=1300
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest:Snapshot () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:228)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:161)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetAutoTest] 73.4s END state=Countdown seed=1953113053 score=0 clock=0.00 gameOvers=4 elapsed=0.0 cp=-1 wipeouts=0 farts=0 players=1 inputsSent=579 burstsReceived=22 posesReceived=1916 connected=True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetAutoTest:Log (string) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:98)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[Net] left the session
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetworkSessionManager:Leave () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetworkSessionManager.cs:254)
+FartOnline.Game.Net.NetAutoTest/<Run>d__22:MoveNext () (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetAutoTest.cs:166)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[Net] disconnected: [Disconnect Event][Client-1][TransportClientId-4294967296][TransportShutdown] NetworkConnectionManager was shutdown. The transport was shutdown.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+FartOnline.Game.Net.NetworkSessionManager:OnClientDisconnected (ulong) (at D:/unityProjects/fartonline/Assets/Game/Scripts/Multiplayer/NetworkSessionManager.cs:364)
+Unity.Netcode.NetworkConnectionManager:InvokeOnClientDisconnectCallback (ulong) (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Connection/NetworkConnectionManager.cs:214)
+Unity.Netcode.NetworkConnectionManager:DisconnectEventHandler (ulong) (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Connection/NetworkConnectionManager.cs:682)
+Unity.Netcode.NetworkConnectionManager:HandleNetworkEvent (Unity.Netcode.NetworkEvent,ulong,System.ArraySegment`1<byte>,single) (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Connection/NetworkConnectionManager.cs:478)
+Unity.Netcode.NetworkTransport:InvokeOnTransportEvent (Unity.Netcode.NetworkEvent,ulong,System.ArraySegment`1<byte>,single) (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Transports/NetworkTransport.cs:53)
+Unity.Netcode.Transports.UTP.UnityTransport:DisconnectLocalClient () (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Transports/UTP/UnityTransport.cs:1444)
+Unity.Netcode.NetworkConnectionManager:Shutdown () (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Connection/NetworkConnectionManager.cs:1729)
+Unity.Netcode.NetworkManager:ShutdownInternal () (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Core/NetworkManager.cs:1667)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Core/NetworkManager.cs:519)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkPostLateUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@277a288a1cea/Runtime/Core/NetworkUpdateLoop.cs:286)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed
+PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1794053075699,"processId":6724,"allocatedMemory":572309,"memoryLabels":[{"Default":5248},{"NewDelete":104},{"Manager":548259},{"Shader":3032},{"GfxDevice":72},{"Animation":219016},{"Serialization":7968},{"BaseObject":65280},{"String":432},{"PoolAlloc":336},{"CodeReload":440},{"CloudService":144},{"WebRequest":3914},{"VR":1928},{"Subsystems":96},{"CoreBusinessMetrics":128}]}

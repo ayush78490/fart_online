@@ -1,0 +1,14 @@
+2026-11-07T11:41:01.586Z [rooms] listening on 127.0.0.1:18080 | host 127.0.0.1 | ports 7800+ | tls false | max 2 rooms | DEV_AUTH ON (local tests only)
+2026-11-07T11:41:26.963Z [rooms] room CQW66X: starting on port 7800 (public 7800) for alice
+2026-11-07T11:41:28.668Z [rooms] room CQW66X: ready
+2026-11-07T11:41:28.909Z [rooms] room CQW66X: 1 player(s)
+2026-11-07T11:41:28.909Z [rooms] room CQW66X: 1 player(s)
+2026-11-07T11:41:32.687Z [rooms] room CQW66X: 2 player(s)
+2026-11-07T11:41:32.687Z [rooms] room CQW66X: 2 player(s)
+2026-11-07T11:41:44.912Z [rooms] room CQW66X: 2 player(s)
+2026-11-07T11:41:44.912Z [rooms] room CQW66X: 2 player(s)
+2026-11-07T11:42:25.769Z [rooms] room CQW66X: 1 player(s)
+2026-11-07T11:42:25.770Z [rooms] room CQW66X: 1 player(s)
+2026-11-07T11:42:33.746Z [rooms] room CQW66X: 0 player(s)
+2026-11-07T11:42:33.746Z [rooms] room CQW66X: 0 player(s)
+2026-11-07T11:42:37.249Z [rooms] room CQW66X: server exited (143)

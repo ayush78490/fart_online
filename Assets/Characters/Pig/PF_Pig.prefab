@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &332450382493487809
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+      propertyPath: m_Name
+      value: PF_Pig
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 25e2f033e03462343be7fd0a67c3cb88, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8903066668254753125}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5342036670120722723}
+    - targetCorrespondingSourceObject: {fileID: 1016175729800734328, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2292018454655035707}
+  m_SourcePrefab: {fileID: 100100000, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+--- !u!1 &602479653142835088 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  m_PrefabInstance: {fileID: 332450382493487809}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8903066668254753125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602479653142835088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7500c4e4a43eaf043980e84adaa275e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FartOnline.Pig.PigFaceController
+  skin: {fileID: 8803171572435994933}
+  facePoseClips:
+  - {fileID: -3724287324537873072, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: -1414994022582258465, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: 374613776103812540, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: -4948351202295811428, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: -4774513626448362459, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: 7632950064115033375, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: 3438617541154429814, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: 4443586205602287476, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: -6544616857504511629, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: -2840108522463209163, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: 4077975635687368679, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: -3900906603334915150, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: 4013783979158331050, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: -5977296260695236597, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: 3884021715460165922, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: -4634130560373895777, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  - {fileID: -4729631482559558046, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  Blink_L: 0
+  Blink_R: 0
+  Blink_Both: 0
+  Eye_Look_X: 0
+  Eye_Look_Y: 0
+  Squint_L: 0
+  Squint_R: 0
+  Eyes_Wide: 0
+  Brow_Raise_L: 0
+  Brow_Raise_R: 0
+  Brow_Furrow: 0
+  Ear_Tilt_L: 0
+  Ear_Tilt_R: 0
+  Smile: 0
+  Smile_L: 0
+  Smile_R: 0
+  Frown: 0
+  Mouth_Open: 0
+  Mouth_Wide: 0
+  Mouth_O: 0
+  Cheek_Raise: 0
+  Snout_Compress: 0
+  Snout_Widen: 0
+  V_AA: 0
+  V_EE: 0
+  V_OH: 0
+  V_FV: 0
+  V_MBP: 0
+  V_L: 0
+  V_REST: 0
+  Cartoon_Intensity: 1
+  Squash: 0
+  Stretch: 0
+  Belly_Squash: 0
+  Belly_Stretch: 0
+  shoulderCorrectives: 1
+--- !u!114 &5342036670120722723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602479653142835088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8814873408e143345b1272a9db9c8756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FartOnline.Pig.PigSecondaryMotion
+  face: {fileID: 8903066668254753125}
+  globalGain: 0.6
+  springs:
+  - bone: Ear_Tip_L
+    rotational: 1
+    stiffness: 110
+    damping: 8
+    gain: 0.9
+    clamp: 0.07
+    t: {fileID: 0}
+    x: {x: 0, y: 0, z: 0}
+    v: {x: 0, y: 0, z: 0}
+    p0: {x: 0, y: 0, z: 0}
+    p1: {x: 0, y: 0, z: 0}
+    frames: 0
+    length: 0
+  - bone: Ear_Tip_R
+    rotational: 1
+    stiffness: 110
+    damping: 8
+    gain: 0.9
+    clamp: 0.07
+    t: {fileID: 0}
+    x: {x: 0, y: 0, z: 0}
+    v: {x: 0, y: 0, z: 0}
+    p0: {x: 0, y: 0, z: 0}
+    p1: {x: 0, y: 0, z: 0}
+    frames: 0
+    length: 0
+  - bone: Belly
+    rotational: 0
+    stiffness: 140
+    damping: 9
+    gain: 0.55
+    clamp: 0.035
+    t: {fileID: 0}
+    x: {x: 0, y: 0, z: 0}
+    v: {x: 0, y: 0, z: 0}
+    p0: {x: 0, y: 0, z: 0}
+    p1: {x: 0, y: 0, z: 0}
+    frames: 0
+    length: 0
+  - bone: Tail_2
+    rotational: 1
+    stiffness: 160
+    damping: 7
+    gain: 0.8
+    clamp: 0.05
+    t: {fileID: 0}
+    x: {x: 0, y: 0, z: 0}
+    v: {x: 0, y: 0, z: 0}
+    p0: {x: 0, y: 0, z: 0}
+    p1: {x: 0, y: 0, z: 0}
+    frames: 0
+    length: 0
+  impactStiffness: 260
+  impactDamping: 14
+--- !u!1 &758636281454589113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1016175729800734328, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  m_PrefabInstance: {fileID: 332450382493487809}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2292018454655035707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758636281454589113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad32398003d1cc42874f32f63c7595f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FartOnline.Game.MobileMeshSwap
+  mobileMesh: {fileID: 4300000, guid: 8f18dbb5f2c1edc46977da10f77a000d, type: 2}
+--- !u!137 &8803171572435994933 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -92820514217993228, guid: 61fcd2916b2e6ca4aa1459c2920a53d4, type: 3}
+  m_PrefabInstance: {fileID: 332450382493487809}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="theme-color" content="#4A2C17">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Fart Online">
+    <meta name="description" content="{{{ PRODUCT_NAME }}}: one round raft, an endless river, everybody farts. Dodge every obstacle!">
+    <title>{{{ PRODUCT_NAME }}}</title>
+    <link rel="icon" type="image/png" href="TemplateData/icons/icon-192.png">
+    <link rel="apple-touch-icon" href="TemplateData/icons/icon-192.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="TemplateData/style.css">
+#if SHOW_DIAGNOSTICS
+    <link rel="stylesheet" href="<<<TemplateData/diagnostics.css>>>">
+    <script src="<<<TemplateData/diagnostics.js>>>"></script>
+#endif
+#if DEVELOPMENT_PLAYER
+    <script src="<<<TemplateData/profiler.js>>>"></script>
+#endif
+  </head>
+  <body>
+    <canvas id="unity-canvas" tabindex="-1"></canvas>
+    <div id="loading">
+      <div id="loading-logo"><span class="fart">FART</span><span class="online">ONLINE</span></div>
+      <div id="loading-tag">endless river &middot; everybody farts &middot; one bump and you're out</div>
+      <div id="loading-bar"><div id="loading-fill"></div></div>
+      <div id="loading-text">Inflating the raft&hellip;</div>
+    </div>
+    <div id="rotate-hint">Tip: turn your phone sideways for a wider view</div>
+    <div id="unity-warning"></div>
+#if SHOW_DIAGNOSTICS
+    <img id="diagnostics-icon" src="TemplateData/webmemd-icon.png">
+#endif
+    <script>
+      // installable web app (offline cache of the build)
+      window.addEventListener("load", function () {
+        if ("serviceWorker" in navigator) navigator.serviceWorker.register("ServiceWorker.js");
+      });
+
+      var canvas = document.querySelector("#unity-canvas");
+      var loading = document.querySelector("#loading");
+      var fill = document.querySelector("#loading-fill");
+      var loadingText = document.querySelector("#loading-text");
+      var warning = document.querySelector("#unity-warning");
+      var isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent) || (navigator.maxTouchPoints > 1 && /Macintosh/.test(navigator.userAgent));
+
+      // no browser gestures on the game: no scrolling, pinch zoom, long-press menus or double-tap zoom
+      canvas.addEventListener("contextmenu", function (e) { e.preventDefault(); });
+      document.addEventListener("gesturestart", function (e) { e.preventDefault(); });
+      document.addEventListener("touchmove", function (e) { if (e.target === canvas) e.preventDefault(); }, { passive: false });
+
+      function unityShowBanner(msg, type) {
+        var div = document.createElement("div");
+        div.innerHTML = msg;
+        div.className = type === "error" ? "banner error" : "banner";
+        warning.appendChild(div);
+        if (type !== "error") setTimeout(function () { warning.removeChild(div); }, 5000);
+      }
+
+      // portrait phones get a gentle hint (the game supports both orientations)
+      function updateRotateHint() {
+        var hint = document.querySelector("#rotate-hint");
+        hint.style.display = isMobile && window.innerHeight > window.innerWidth && loading.style.display !== "none" ? "block" : "none";
+      }
+      window.addEventListener("resize", updateRotateHint);
+
+      var buildUrl = "Build";
+      var config = {
+        arguments: [],
+        dataUrl: buildUrl + "/{{{ DATA_FILENAME }}}",
+        frameworkUrl: buildUrl + "/{{{ FRAMEWORK_FILENAME }}}",
+#if USE_WASM
+        codeUrl: buildUrl + "/{{{ CODE_FILENAME }}}",
+#endif
+#if SYMBOLS_FILENAME
+        symbolsUrl: buildUrl + "/{{{ SYMBOLS_FILENAME }}}",
+#endif
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: {{{ JSON.stringify(COMPANY_NAME) }}},
+        productName: {{{ JSON.stringify(PRODUCT_NAME) }}},
+        productVersion: {{{ JSON.stringify(PRODUCT_VERSION) }}},
+        showBanner: unityShowBanner,
+        // sharp but affordable: phones and tablets render at up to 1.5x, desktops up to 2x
+        devicePixelRatio: Math.min(window.devicePixelRatio || 1, isMobile ? 1.5 : 2),
+      };
+
+      var script = document.createElement("script");
+      script.src = buildUrl + "/{{{ LOADER_FILENAME }}}";
+      script.onload = function () {
+        createUnityInstance(canvas, config, function (progress) {
+          fill.style.width = (100 * progress) + "%";
+          loadingText.textContent = progress < 0.9 ? "Inflating the raft… " + Math.round(progress * 100) + "%" : "Warming up the beans…";
+        }).then(function (unityInstance) {
+          window.unityInstance = unityInstance;
+          loading.style.display = "none";
+          updateRotateHint();
+#if SHOW_DIAGNOSTICS
+          document.getElementById("diagnostics-icon").onclick = function () {
+            unityDiagnostics.openDiagnosticsDiv(unityInstance.GetMetricsInfo);
+          };
+#endif
+        }).catch(function (message) {
+          loadingText.textContent = "Could not start: " + message;
+        });
+      };
+      document.body.appendChild(script);
+      updateRotateHint();
+    </script>
+  </body>
+</html>

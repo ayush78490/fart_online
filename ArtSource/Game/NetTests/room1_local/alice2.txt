@@ -1,0 +1,18 @@
+0.7s start role=room pattern=right delay=0ms drop=0
+2.0s ROOM CODE=CQW66X host=127.0.0.1:7800 tls=False
+22.0s CONNECT TIMEOUT 
+22.0s NO RAFT SYNC OBJECT
+23.0s players=0 leader=False state=Disconnected
+23.0s pos=(-34.35,0.00,107.66) v=3.59 kinematic=False rtt=- state=Disconnected seed=0 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 sync=none connected=False voiceSent=0 voiceRecv=0
+24.1s pos=(-37.49,0.01,109.64) v=3.71 kinematic=False rtt=- state=Disconnected seed=0 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 sync=none connected=False voiceSent=0 voiceRecv=0
+25.0s pos=(-40.53,0.00,111.73) v=3.76 kinematic=False rtt=- state=Disconnected seed=0 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 sync=none connected=False voiceSent=0 voiceRecv=0
+26.0s pos=(-43.61,0.00,113.92) v=3.79 kinematic=False rtt=- state=Disconnected seed=0 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 sync=none connected=False voiceSent=0 voiceRecv=0
+27.0s pos=(-46.70,0.00,116.12) v=3.80 kinematic=False rtt=- state=Disconnected seed=0 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 sync=none connected=False voiceSent=0 voiceRecv=0
+28.0s pos=(-49.84,0.00,118.26) v=3.80 kinematic=False rtt=- state=Disconnected seed=0 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 sync=none connected=False voiceSent=0 voiceRecv=0
+29.0s pos=(-53.03,0.00,120.34) v=3.81 kinematic=False rtt=- state=Disconnected seed=0 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 sync=none connected=False voiceSent=0 voiceRecv=0
+30.0s pos=(-56.20,0.00,122.44) v=3.81 kinematic=False rtt=- state=Disconnected seed=0 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 sync=none connected=False voiceSent=0 voiceRecv=0
+31.0s pos=(-59.28,0.00,124.68) v=3.81 kinematic=False rtt=- state=Disconnected seed=0 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 sync=none connected=False voiceSent=0 voiceRecv=0
+32.0s pos=(-62.15,0.00,127.18) v=3.80 kinematic=False rtt=- state=Disconnected seed=0 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 sync=none connected=False voiceSent=0 voiceRecv=0
+33.0s pos=(-64.71,0.00,129.98) v=3.79 kinematic=False rtt=- state=Disconnected seed=0 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 sync=none connected=False voiceSent=0 voiceRecv=0
+34.0s pos=(-66.96,0.00,133.03) v=3.80 kinematic=False rtt=- state=Disconnected seed=0 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 sync=none connected=False voiceSent=0 voiceRecv=0
+35.0s END state=Disconnected seed=0 score=0 clock=0.00 gameOvers=0 elapsed=0.0 cp=-1 wipeouts=0 farts=0 sync=none connected=False

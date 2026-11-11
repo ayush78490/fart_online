@@ -1,0 +1,14 @@
+2026-11-07T12:02:58.624Z [rooms] listening on 127.0.0.1:18080 | host 127.0.0.1 | ports 7800+ | tls false | max 2 rooms | DEV_AUTH ON (local tests only)
+2026-11-07T12:03:23.879Z [rooms] room LY67BE: starting on port 7800 (public 7800) for alice
+2026-11-07T12:03:30.591Z [rooms] room LY67BE: ready
+2026-11-07T12:03:30.935Z [rooms] room LY67BE: 1 player(s)
+2026-11-07T12:03:30.935Z [rooms] room LY67BE: 1 player(s)
+2026-11-07T12:03:34.028Z [rooms] room LY67BE: 2 player(s)
+2026-11-07T12:03:34.029Z [rooms] room LY67BE: 2 player(s)
+2026-11-07T12:03:46.133Z [rooms] room LY67BE: 2 player(s)
+2026-11-07T12:03:46.133Z [rooms] room LY67BE: 2 player(s)
+2026-11-07T12:04:27.091Z [rooms] room LY67BE: 1 player(s)
+2026-11-07T12:04:27.091Z [rooms] room LY67BE: 1 player(s)
+2026-11-07T12:04:35.091Z [rooms] room LY67BE: 0 player(s)
+2026-11-07T12:04:35.091Z [rooms] room LY67BE: 0 player(s)
+2026-11-07T12:04:38.322Z [rooms] room LY67BE: server exited (143)

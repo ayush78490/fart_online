@@ -1,0 +1,10 @@
+{
+  "name": "fartonline-room-service",
+  "version": "1.0.0",
+  "description": "Fart Online room service: starts one dedicated Unity game server per room and signs join tickets",
+  "main": "server.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node server.js" }
+}

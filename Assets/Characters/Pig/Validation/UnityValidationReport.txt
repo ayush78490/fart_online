@@ -1,0 +1,62 @@
+Pig character Unity validation  2026-10-30 02:45:57Z
+Unity 6000.5.6f1  pipeline: UniversalRenderPipelineAsset
+PASS  PigSkin shader found
+PASS  PigSkin shader compiles without errors
+PASS  PigSkin shader supported on this device
+PASS  M_Pig_Skin uses FartOnline/PigSkin  [FartOnline/PigSkin]
+PASS  URP/Lit fallback skin has the baked detail map
+PASS  Changing _SkinColor leaves smoothness/specular/coat/SSS/detail untouched
+PASS  FBX importer found  [Assets/Characters/Pig/Models/PigCharacter_Game.fbx]
+PASS  Rig type Generic
+PASS  Blend shapes imported
+INFO  importer: globalScale=1 useFileScale=True fileScale=1 bakeAxisConversion=True
+INFO  clips (35): Blink 0.40s, Ear_FollowThrough 1.60s, Expression_Transitions 7.73s, FACE_Blink_L 0.03s, FACE_Blink_R 0.03s, FACE_Brow_Furrow 0.03s, FACE_Brow_Raise_L 0.03s, FACE_Brow_Raise_R 0.03s, FACE_Ear_Tilt_L_Neg 0.03s, FACE_Ear_Tilt_L_Pos 0.03s, FACE_Ear_Tilt_R_Neg 0.03s, FACE_Ear_Tilt_R_Pos 0.03s, FACE_Eye_Look_X_Neg 0.03s, FACE_Eye_Look_X_Pos 0.03s, FACE_Eye_Look_Y_Neg 0.03s, FACE_Eye_Look_Y_Pos 0.03s, FACE_Eyes_Wide 0.03s, FACE_Rest 0.03s, FACE_Squint_L 0.03s, FACE_Squint_R 0.03s, Hand_Gestures 4.20s, Idle_Breathing(loop) 2.40s, Jump 2.00s, Land 1.20s, Laugh 2.07s, Look_LeftRight 2.33s, Look_Up 1.67s, RefPose 0.03s, Run(loop) 0.67s, Smile 1.40s, Squat 2.07s, Surprised 1.60s, Talk 2.00s, Walk(loop) 1.07s, Wave 1.93s
+PASS  All 35 clips imported  [35]
+PASS  Clip Idle_Breathing loops
+PASS  Clip Walk loops
+PASS  Clip Run loops
+PASS  Talk clip animates viseme blend shapes  [23 blend-shape curves]
+PASS  SkinnedMeshRenderer present
+INFO  mesh: 19736 verts, 30766 tris, 5 submeshes, 23 blend shapes, colors=True
+PASS  5 submeshes / materials (skin, mouth, eye white, pupil, hoof)  [5]
+PASS  23 blend shapes  [Smile,Smile_L,Smile_R,Frown,Mouth_Open,Mouth_Wide,Mouth_O,Cheek_Raise,V_AA,V_EE,V_OH,V_FV,V_MBP,V_L,V_REST,Belly_Squash,Belly_Stretch,Body_Squash,Body_Stretch,Corr_Shoulder_Up_L,Corr_Shoulder_Up_R,Snout_Compress,Snout_Widen]
+PASS  PigMask vertex colours present
+PASS  Skin bones bound  [41]
+PASS  Skin weights present  [35744 weights]
+PASS  All submesh materials remapped to project materials  [M_Pig_Skin:FartOnline/PigSkin,M_Pig_Mouth:Universal Render Pipeline/Lit,M_Pig_Eye_White:Universal Render Pipeline/Lit,M_Pig_Pupil:Universal Render Pipeline/Lit,M_Pig_Hoof:Universal Render Pipeline/Lit]
+PASS  Root bone present
+INFO  skeleton transforms: 41
+INFO  rest world bounds min (-0.692, -0.005, -0.491) max (0.692, 1.561, 0.475)
+PASS  Imported height ~1.56 m (scale correct)  [1.565]
+PASS  Feet on ground (min y ~ 0)  [-0.005]
+PASS  Character faces +Z (Unity forward)  [(-0.086, 0.224, 0.298)]
+PASS  Eye_L is on the character's left (-X when facing +Z)  [-0.086]
+PASS  Clip Blink samples cleanly, stays in place  [max hips XZ offset 0.020]
+PASS  Clip Ear_FollowThrough samples cleanly, stays in place  [max hips XZ offset 0.020]
+PASS  Clip Expression_Transitions samples cleanly, stays in place  [max hips XZ offset 0.020]
+PASS  Clip Hand_Gestures samples cleanly, stays in place  [max hips XZ offset 0.020]
+PASS  Clip Idle_Breathing samples cleanly, stays in place  [max hips XZ offset 0.020]
+PASS  Clip Jump samples cleanly, stays in place  [max hips XZ offset 0.030]
+PASS  Clip Land samples cleanly, stays in place  [max hips XZ offset 0.030]
+PASS  Clip Laugh samples cleanly, stays in place  [max hips XZ offset 0.020]
+PASS  Clip Look_LeftRight samples cleanly, stays in place  [max hips XZ offset 0.020]
+PASS  Clip Look_Up samples cleanly, stays in place  [max hips XZ offset 0.020]
+PASS  Clip RefPose samples cleanly, stays in place  [max hips XZ offset 0.020]
+PASS  Clip Run samples cleanly, stays in place  [max hips XZ offset 0.027]
+PASS  Clip Smile samples cleanly, stays in place  [max hips XZ offset 0.020]
+PASS  Clip Squat samples cleanly, stays in place  [max hips XZ offset 0.040]
+PASS  Clip Surprised samples cleanly, stays in place  [max hips XZ offset 0.020]
+PASS  Clip Talk samples cleanly, stays in place  [max hips XZ offset 0.020]
+PASS  Clip Walk samples cleanly, stays in place  [max hips XZ offset 0.027]
+PASS  Clip Wave samples cleanly, stays in place  [max hips XZ offset 0.020]
+PASS  Jump clip leaves the ground  [0.420]
+PASS  Face controller found all 16 FACE pose clips  [16]
+PASS  Blink_Both closes the upper lid  [158.0 deg]
+PASS  Blink releases back to rest
+PASS  Expression preset drives blend shapes  [80.0]
+INFO  rendered _warmup.png
+INFO  rendered unity_preview_refpose.png
+INFO  rendered unity_preview_happy.png
+INFO  rendered unity_preview_blue_surprised.png
+INFO  rendered unity_preview_green_jump_land.png
+RESULT: ALL CHECKS PASSED

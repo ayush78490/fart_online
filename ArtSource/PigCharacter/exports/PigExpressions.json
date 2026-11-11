@@ -1,0 +1,103 @@
+{
+  "presets": {
+    "Neutral": {},
+    "Happy": {
+      "Smile": 0.8,
+      "Cheek_Raise": 0.6,
+      "Squint_L": 0.25,
+      "Squint_R": 0.25,
+      "Brow_Raise_L": 0.35,
+      "Brow_Raise_R": 0.35,
+      "Ear_Tilt_L": -0.2,
+      "Ear_Tilt_R": -0.2
+    },
+    "Excited": {
+      "Smile": 1.0,
+      "Mouth_Open": 0.55,
+      "Eyes_Wide": 0.8,
+      "Brow_Raise_L": 1.0,
+      "Brow_Raise_R": 1.0,
+      "Cheek_Raise": 0.5,
+      "Ear_Tilt_L": -0.5,
+      "Ear_Tilt_R": -0.5
+    },
+    "Sad": {
+      "Frown": 0.85,
+      "Brow_Raise_L": 0.45,
+      "Brow_Raise_R": 0.45,
+      "Brow_Furrow": 0.35,
+      "Squint_L": 0.25,
+      "Squint_R": 0.25,
+      "Eye_Look_Y": -0.45,
+      "Ear_Tilt_L": 0.8,
+      "Ear_Tilt_R": 0.8
+    },
+    "Angry": {
+      "Frown": 0.7,
+      "Brow_Furrow": 1.0,
+      "Snout_Widen": 0.7,
+      "Squint_L": 0.45,
+      "Squint_R": 0.45,
+      "Mouth_Wide": 0.3,
+      "Ear_Tilt_L": -0.6,
+      "Ear_Tilt_R": -0.6
+    },
+    "Surprised": {
+      "Mouth_O": 1.0,
+      "Eyes_Wide": 1.0,
+      "Brow_Raise_L": 1.0,
+      "Brow_Raise_R": 1.0,
+      "Snout_Compress": 0.3,
+      "Ear_Tilt_L": -0.45,
+      "Ear_Tilt_R": -0.45
+    },
+    "Confused": {
+      "Smile_R": 0.35,
+      "Frown": 0.25,
+      "Brow_Raise_L": 1.0,
+      "Brow_Furrow": 0.25,
+      "Squint_R": 0.45,
+      "Eye_Look_X": 0.35,
+      "Eye_Look_Y": 0.3,
+      "Ear_Tilt_L": -0.5,
+      "Ear_Tilt_R": 0.45
+    },
+    "Sleepy": {
+      "Blink_Both": 0.62,
+      "Mouth_Open": 0.12,
+      "Eye_Look_Y": -0.3,
+      "Ear_Tilt_L": 0.6,
+      "Ear_Tilt_R": 0.6,
+      "Snout_Compress": 0.15
+    },
+    "Laughing": {
+      "Smile": 1.0,
+      "Mouth_Open": 1.0,
+      "Cheek_Raise": 1.0,
+      "Squint_L": 0.8,
+      "Squint_R": 0.8,
+      "Brow_Raise_L": 0.5,
+      "Brow_Raise_R": 0.5
+    },
+    "Worried": {
+      "Frown": 0.45,
+      "Brow_Raise_L": 0.7,
+      "Brow_Raise_R": 0.7,
+      "Brow_Furrow": 0.55,
+      "Mouth_Wide": 0.3,
+      "Eyes_Wide": 0.3,
+      "Eye_Look_X": -0.3,
+      "Ear_Tilt_L": 0.3,
+      "Ear_Tilt_R": 0.3
+    }
+  },
+  "visemes": [
+    "V_AA",
+    "V_EE",
+    "V_OH",
+    "V_FV",
+    "V_MBP",
+    "V_L",
+    "V_REST"
+  ]
+}
